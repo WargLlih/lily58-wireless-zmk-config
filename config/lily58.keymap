@@ -41,11 +41,11 @@
 
             label = "Lower";
             bindings = <
-&none             &none            &none          &none      &none       &none                                   &none             &none              &none  &kp N7     &kp N8  &kp N9
-&none             &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR  &kp PERCENT                             &kp EXCLAMATION   &kp EQUAL          &none  &kp N4     &kp N5  &kp NUMBER_6
-&kp LEFT_SHIFT    &kp CARET        &kp AMPERSAND  &kp MINUS  &kp PLUS    &kp EQUAL                               &kp LEFT_BRACE    &kp RIGHT_BRACE    &none  &kp N1     &kp N2  &kp N3
-&kp LEFT_CONTROL  &none            &none          &none      &none       &none        &none    &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &kp COMMA  &kp N0  &kp PERIOD
-                                                  &none      &none       &none        &none    &none             &none             &none              &none
+&none             &none            &none          &none      &none       &none                                   &kp EXCLAMATION       &kp EQUAL              &none  &kp N7     &kp N8  &kp N9
+&none             &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR  &kp PERCENT                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &kp N4     &kp N5  &kp NUMBER_6
+&kp LEFT_SHIFT    &kp TILDE        &kp AMPERSAND  &kp MINUS  &kp PLUS    &kp EQUAL                               &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &kp N1     &kp N2  &kp N3
+&kp LEFT_CONTROL  &none            &none          &none      &none       &none        &none    &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &kp COMMA  &kp N0  &kp PERIOD
+                                                  &none      &none       &none        &none    &none             &none                 &none                  &none
             >;
         };
 
